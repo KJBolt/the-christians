@@ -1,0 +1,307 @@
+    /* Navbar */
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+.Container {
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.Container .nav-wrapper{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container .nav-wrapper .links{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+}
+.Container .nav-wrapper .links .title h5{
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.Container .nav-wrapper .title-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Container .nav-wrapper .title-links p{
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin-top: 8px;
+    color: #fff;
+}
+
+.Container .nav-wrapper .title-links p a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Container .nav-wrapper .content{
+    position: relative;
+    width: 60%;
+    height: 100%;
+}
+
+.Container .nav-wrapper .content h5{
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.Container .nav-wrapper .content h5 span{
+    color: brown;
+}
+
+.Container .nav-wrapper .more{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: brown;
+    border: 2px solid red;
+}
+
+.Container .nav-wrapper .more h5{
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 19px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ /* Main Content */
+.Container .main-content{
+    position: relative;
+    height: auto;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+}
+.Container .main-content .left{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(231, 231, 231);
+}
+
+.Container .main-content .left h5{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Container .main-content .left .content{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.Container .main-content .left .content .image{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+.Container .main-content .left .content .image img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.Container .main-content .left .content .details{
+    position: relative;
+    height: 100%;
+    width: 70%;
+    float: right;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.Container .main-content .left .content .details .body{
+    text-align: justify;
+}
+
+.Container .main-content .left .content .details h6{
+    font-size: 16px;
+}
+
+.Container .main-content .left .content .details p{
+    font-size: 15px;
+}
+
+
+.Container .main-content .center{
+    position: relative;
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    border-top: 1px solid grey;
+}
+
+.Container .main-content .center h5{
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: brown;
+    font-weight: 700;
+}
+
+.Container .main-content .center .image{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+
+.Container .main-content .center .image img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.Container .main-content .center .details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.Container .main-content .center .details .icons{
+    display: flex;
+}
+
+.Container .main-content .center .details .icons p{
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.Container .main-content .center .details .icons p a{
+    color: black;
+    text-decoration: none;
+}
+
+.Container .main-content .center .details p{
+    font-size: 12px;
+}
+
+.Container .main-content .right{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+    padding: 10px;
+}
+
+.Container .main-content .right h5{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Container .main-content .right .content{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.Container .main-content .right .content .image{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+
+.Container .main-content .right .content .image img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.Container .main-content .right .content .details{
+    position: relative;
+    height: 100%;
+    width: 70%;
+    float: right;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.Container .main-content .right .content .details h6{
+    font-size: 15px;
+}
+
+.Container .main-content .right .content .details p{
+    font-size: 13px;
+}
+
+
+@media only screen and (max-width: 767px){
+    .Container .nav-wrapper{
+        position: relative;
+        height: 60px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container .nav-wrapper .links{
+        position: relative;
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .Container .nav-wrapper .content{
+        width: 100%;
+    }
+
+    .Container .nav-wrapper .more{
+        width: 100%;
+        display: none;
+    }
+
+    .Container .main-content{
+        flex-direction: column;
+    }
+
+    .Container .main-content .left{
+        width: 100%;
+        display: none;
+    }
+
+    .Container .main-content .center{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .Container .main-content .center .image{
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+
+    .Container .main-content .right{
+        width: 100%;
+    }
+}

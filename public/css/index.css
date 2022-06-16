@@ -1,0 +1,650 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Container{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    padding: 10px;
+}
+.Container .wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/prayer1.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Container .navWrapper{
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    height: auto;
+}
+
+.navWrapper .logo{
+    position: relative;
+    height: 100%;
+}
+
+.navWrapper .logo h4{
+    color: #fff;
+    padding: 10px;
+}
+
+.navWrapper .logo h4 span{
+    color: brown;
+}
+
+.navWrapper .navLinks{
+    position: relative;
+}
+
+.navWrapper .navLinks ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navWrapper .navLinks ul li{
+    padding: 5px;
+}
+
+.navWrapper .navLinks ul a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navWrapper .navLinks ul a.active{
+    color: brown;
+}
+
+.navWrapper .navLinks ul a:hover{
+    color: brown;
+}
+
+.navWrapper .auth{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.navWrapper .auth a{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.navWrapper .auth a:hover{
+    color: rgb(227, 19, 19);
+}
+
+.Container .content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    /* border: 1px solid blue;  */
+
+}
+
+.content .content-details{
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1{
+    font-weight: 700;
+    font-size: 80px;
+    color: #fff;
+    text-align: start;
+    padding-left: 12px;
+}
+
+.content p{
+    color: #fff;
+    text-align: start;
+}
+
+.content a{
+    background-color: brown;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.content a:hover{
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #21151c15;
+}
+
+/* Second Content */
+
+.Container-second{
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+
+.Container-second .wrapper2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.Container-second .wrapper2 .top{
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.Container-second .wrapper2 .top .image1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Container-second .wrapper2 .top .image1 .content{
+
+    margin-top: 10px;
+}
+
+.Container-second .wrapper2 .top .image1 .content h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.Container-second .wrapper2 .top .image1 .content p{
+    color: black;
+    text-align: start;
+}
+
+.Container-second .wrapper2 .top .image2{
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-image: url('../images/disciples.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Container-second .wrapper2 .bottom{
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+
+.Container-second .wrapper2 .bottom .image1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-image: url('../images/preach.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.Container-second .wrapper2 .bottom .image2{
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Container-second .wrapper2 .bottom .image2 .content h2{
+    text-align: center;
+    font-weight: 700;
+}
+
+.Container-second .wrapper2 .bottom .image2 .content p{
+    color: black;
+    font-size: 20px;
+    text-align: start;
+}
+
+
+/* Contact Form */
+.wrapper4{
+    position: relative;
+    height: auto;
+    width: 100%;
+    background: rgb(36, 35, 46);
+}
+
+.wrapper4 .Container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.wrapper4 .Container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper4 .Container .head{
+    margin-bottom: 15px;
+    padding-top: 50px;
+}
+
+.wrapper4 .Container .head h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+.wrapper4 .Container .head p{
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.wrapper4 .Container .head h1{
+    text-align: center;
+}
+
+.wrapper4 .Container .contact{
+    position: relative;
+    height: auto;
+    width: 70%;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px #fff;
+    margin: 50px auto;
+}
+
+.wrapper4 .Container .contact form input{
+    padding: 10px;
+    margin: 30px auto;
+}
+
+.wrapper4 .Container .contact form .float input{
+    margin: 20px auto;
+}
+
+.wrapper4 .Container .contact form{
+    position: relative;
+    width: 100%;
+}
+
+.wrapper4 .Container .contact form textarea{
+    margin: 10px auto;
+}
+
+.wrapper4 .Container .contact form .btn{
+    background-color: brown;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Learning Page */
+.container-2{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: rgb(235, 231, 231);
+}
+
+.container-2 .wrapper3{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+}
+
+.container-2 .wrapper3 .details{
+    position: relative;
+    width: 50%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(150%);
+}
+
+.container-2 .wrapper3 .details .content h1{
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+.container-2 .wrapper3 .details .content .first-paragraph{
+    color: brown;
+    font-weight: 700;
+}
+
+.container-2 .wrapper3 .details .content p{
+    text-align: center;
+    color: black;
+}
+
+.container-2 .wrapper3 .details a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-2 .wrapper3 .details .btn{
+    background-color: brown;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.container-2 .wrapper3 .right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 .wrapper3 .right .image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-2 .wrapper3 .right .image img{
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+/* Footer */
+.container-footer{
+    position: relative;
+    height: auto;
+    padding: 50px 0px;
+    bottom: 0;
+    background: black;
+}
+
+.container-footer .wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.container-footer .wrapper .item-container {
+    position: relative;
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer .wrapper .item-container .contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second{
+    padding-left: 17px;
+}
+
+.container-footer .wrapper .contact p{
+    color: rgb(182, 179, 179);
+}
+
+.container-footer .wrapper .social-media{
+    width: 33%;
+    height: 100%;
+}
+
+.container-footer .social-media .media-align{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer .social-media .media-align .media-wrapper p{
+    color: rgb(182, 179, 179);
+}
+
+.container-footer .social-media .media-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-footer .social-media .media-wrapper .media-icons{
+    display: flex;
+}
+
+.container-footer .social-media .media-wrapper .media-icons p{
+    font-size: 30px;
+    padding-right: 10px;
+    color: rgb(182, 179, 179);
+}
+
+.container-footer .social-media .media-wrapper .media-icons p a{
+    text-decoration: none;
+    color: rgb(182, 179, 179);
+}
+
+.container-footer .wrapper .gathering{
+    width: 33%;
+    height: 100%;
+}
+
+.container-footer .wrapper .gathering .gathering-align{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer .wrapper .gathering .gathering-align .gathering-wrapper h3{
+    color: rgb(182, 179, 179);
+}
+
+.container-footer .wrapper .gathering .gathering-align .gathering-wrapper .teachings p{
+    color: rgb(182, 179, 179);
+}
+
+
+/* On medium screens */
+@media only screen and (max-width: 767px){
+    .navWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navWrapper .navLinks ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navWrapper .auth{
+        flex-direction: column;
+        padding-left: 56px;
+    }
+
+    .Container .content{
+        position: relative;
+        top: 30%;
+    }
+
+    .content h1{
+        font-weight: 700;
+        font-size: 60px;
+        color: #fff;
+    }
+
+
+    .Container-second{
+        position: relative;
+
+    }
+
+
+    .Container-second .wrapper2 {
+        height: 100%;
+        padding: 10px;
+    }
+
+    .Container-second .wrapper2 .top{
+        position: relative;
+        width: 100%;
+        height: 50%;
+    }
+
+    .Container-second .wrapper2 .bottom{
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+    .Container-second .wrapper2 .top .image1{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        padding-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    .Container-second .wrapper2 .bottom .image1{
+        width: 100%;
+        height: 50%;
+    }
+
+    .Container-second .wrapper2 .bottom .image2{
+        width: 100%;
+        height: 50%;
+        padding-top: 30px;
+    }
+
+    .Container-second .wrapper2 .bottom .image2 .content{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .Container-second .wrapper2 .top .image2{
+        width: 100%;
+        height: 50%;
+    }
+
+    .container-2 .wrapper3{
+        padding: 20px;
+    }
+    .container-2 .wrapper3 .details{
+        position: relative;
+        height: 50%;
+        width: 100%;
+        transform: translateY(0%);
+    }
+
+
+    .container-2 .wrapper3 .right{
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+    .container-2 .wrapper3 .details .content h1{
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+
+    .container-2 .wrapper3 .details p{
+        text-align: center;
+    }
+
+    .container-2 .wrapper3 .right .image img{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .container-footer .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-footer .wrapper .item-container {
+        position: relative;
+        width: 100%;
+        border-bottom: 1px solid grey;
+        margin-bottom: 50px;
+    }
+
+    .container-footer .wrapper .item-container .contact{
+        padding-top: 20px;
+    }
+
+    .container-footer .wrapper .social-media{
+        width: 100%;
+        border-bottom: 1px solid grey;
+        margin-bottom: 50px;
+    }
+
+    .container-footer .wrapper .gathering{
+        width: 100%;
+    }
+
+    .wrapper4 .Container .contact{
+        height: 62%;
+    }
+
+    .wrapper4 .Container .head h1{
+        font-size: 40px;
+    }
+
+    .second{
+        padding-left: 17px;
+    }
+
+}

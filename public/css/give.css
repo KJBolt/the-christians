@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Container{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.Container .nav-container{
+    height: 66px;
+    width: 100%;
+}
+
+.Container .wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/give.jpg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Container .navWrapper{
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.navWrapper .logo{
+    position: relative;
+    height: 100%;
+}
+
+.navWrapper .logo h4{
+    color: #fff;
+    padding: 10px;
+}
+
+.navWrapper .logo h4 a{
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+.navWrapper .logo h4 span{
+    color: brown;
+}
+
+.navWrapper .navLinks{
+    position: relative;
+}
+
+.navWrapper .navLinks ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navWrapper .navLinks ul li{
+    padding: 5px;
+}
+
+.navWrapper .navLinks ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navWrapper .navLinks ul li a.active{
+    color: brown;
+}
+
+.navWrapper .navLinks ul a:hover{
+    color: brown;
+}
+
+.navWrapper .auth{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.navWrapper .auth a{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.navWrapper .auth a:hover{
+    color: rgb(227, 19, 19);
+}
+
+.Container .nav-container .content{
+    height: auto;
+    position: relative;
+    margin:  150px auto;
+
+}
+
+.Container .content .content-items{
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.Container .content .content-items h5{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.Container .content .content-items .give{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Container .content .content-items p{
+    color: #fff;
+    line-height: 30px;
+}
+
+
+.Container .content .content-items a{
+    text-decoration: none;
+    color: #fff;
+    background-color: brown;
+    width: 200px;
+    letter-spacing: 3px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .Container .navWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container .navWrapper .navLinks ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container .navWrapper .auth{
+        flex-direction: column;
+        padding-left: 56px;
+    }
+
+    .Container .nav-container .content{
+        height: auto;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .Container .content .content-items h5{
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .Container{
+        min-height: 130vh;
+    }
+
+    .Container .nav-container .content{
+        height: auto;
+    }
+}

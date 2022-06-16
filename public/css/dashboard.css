@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background: rgb(221, 221, 221);
+}
+
+
+.Container{
+    position: relative;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.Container .nav-container{
+    height: auto;
+    width: 100%;
+}
+
+
+.Container .navWrapper{
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+    height: auto;
+    width: 100%;
+}
+
+.navWrapper .logo{
+    position: relative;
+    height: 100%;
+}
+
+.navWrapper .logo h4{
+    color: black;
+    padding: 10px;
+}
+
+.navWrapper .logo h4 a{
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navWrapper .logo h4 span{
+    color: brown;
+}
+
+.navWrapper .navLinks{
+    position: relative;
+}
+
+.navWrapper .navLinks ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navWrapper .navLinks ul li{
+    padding: 5px;
+}
+
+.navWrapper .navLinks ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navWrapper .navLinks ul li a.active{
+    color: brown;
+}
+
+.navWrapper .navLinks ul a:hover{
+    color: brown;
+}
+
+.navWrapper .auth{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+
+.navWrapper .auth a{
+    color: black;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.navWrapper .auth a:hover{
+    color: rgb(227, 19, 19);
+}
+
+/* Content */
+
+.content-container{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+.content-container .card{
+    position: relative;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 41px auto;
+    box-shadow:
+    -7px -7px 20px 0px #fff9,
+    -4px -4px 5px 0px #fff9,
+    7px 7px 20px 0px #0002,
+    4px 4px 5px 0px #0001;;
+}
+
+.content-container .card .sidebar{
+    position: relative;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(139, 43, 43);
+}
+
+.content-container .card .sidebar h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+
+.content-container .card .sidebar .item1 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: left;
+    position: relative;
+    margin-top: 10px;
+}
+.content-container .card .sidebar .item1 ul li:nth-child(1){
+    border-top: 1px solid red;
+}
+.content-container .card .sidebar .item1 ul li{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid red;
+}
+
+.content-container .card .sidebar .item1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+
+.content-container .card .sidebar .item1 ul li a.active{
+    color: gold;
+    padding-left: 25px;
+}
+
+.content-container .card .sidebar .item1 ul li a:hover{
+    transition: 0.4s ease;
+}
+
+.content-container .card .sidebar .sidebar2{
+    display: none;
+}
+
+.content-container .card .content{
+    position: relative;
+    width: 75%;
+    height: 100%;
+}
+
+/* Messages Page Table */
+.content-container .card .content .Table{
+    padding: 20px;
+}
+
+/* Create Post Title */
+.content-container .card .content .post-title{
+    font-weight: 500;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Create Post Form */
+.content-container .card .content form{
+    padding: 20px;
+    overflow: auto;
+}
+
+.content-container .card .content .header{
+    position: relative;
+    text-align: center;
+    margin: 150px auto;
+}
+
+.content-container .card .content .header h5{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-container .card .content form input{
+    margin-bottom: 10px;
+}
+
+.content-container .card .content form textarea{
+    margin-bottom: 20px;
+}
+
+.content-container .card .content form .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container .card .content form .button .btn{
+    position: relative;
+    width: 100%;
+    background-color: brown;
+    color: #fff;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 994px){
+    .Container{
+        position: relative;
+        height: auto;
+    }
+    .Container .navWrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container .navWrapper .navLinks ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container .navWrapper .auth{
+        flex-direction: column;
+        padding-left: 56px;
+    }
+
+
+    .content-container .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .content-container .card .sidebar{
+        position: relative;
+        height: 20%;
+        width: 100%;
+        top: 0;
+        left: none;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(139, 43, 43);
+    }
+
+    /* Sidebar 2 */
+    .content-container .card .sidebar .sidebar2{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+
+    .content-container .card .sidebar .sidebar2 .item2{
+        position: relative;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content-container .card .sidebar .sidebar2 .item2 ul{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+
+    .content-container .card .sidebar .sidebar2 .item2 ul li{
+        float: left;
+        padding-right: 100px;
+        padding: 10px;
+
+    }
+
+    .content-container .card .sidebar .sidebar2 .item2 ul li a {
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .content-container .card .sidebar .sidebar2 .item2 ul li a.active{
+        color: gold;
+    }
+
+    .content-container .card .sidebar .item1{
+        display: none;
+    }
+
+    .content-container .card .sidebar h4{
+        display: none;
+    }
+
+
+    .content-container .card .content{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .content-container .card .content .Table{
+        position: relative;
+        height: 100%;
+        padding: 0px;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .content-container .card .content .Table .table{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+

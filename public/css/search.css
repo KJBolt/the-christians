@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+    /* Nav Links */
+.Container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.Container .wrapper{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container .wrapper .nav-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.Container .wrapper .nav-container .logo{
+    position: relative;
+}
+
+.Container .wrapper .nav-container .logo .logo-container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+
+.Container .wrapper .nav-container .logo h4{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.Container .wrapper .nav-container .logo h4 a{
+    text-decoration: none;
+}
+
+.Container .wrapper .nav-container .logo h4 span{
+    color: brown;
+}
+
+.Container .wrapper .nav-container .icons{
+    display: flex;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.Container .wrapper .nav-container .icons .follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container .wrapper .nav-container .icons p{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.Container .wrapper .nav-container .icons p .fa{
+    padding: 10px;
+    background-color: brown;
+    color: #fff;
+}
+
+
+.Container .wrapper .nav-container .search-field form .btn{
+    background-color: brown;
+    color: #fff;
+}
+
+.Container .wrapper .nav-container .search-field form input{
+    padding: 5px;
+}
+
+    /* Categories */
+.Container .categories{
+    border-top: 1px solid grey;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.Container .categories .categories-wrapper{
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+
+.Container .categories .categories-wrapper p{
+    position: relative;
+    height: 100%;
+    padding: 15px 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.Container .categories .categories-wrapper p a{
+    text-decoration: none;
+    color: brown;
+    font-weight: 700;
+    position: relative;
+    height: 100%;
+
+
+}
+
+.Container .categories .categories-wrapper p a.active{
+    border-top: 4px solid brown;
+    padding: 15px 30px;
+}
+
+.Container .categories .categories-wrapper p:hover{
+
+    padding: 15px 30px;
+}
+
+.main-content{
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+.main-content .content-wrapper{
+    position: relative;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+}
+
+    /* Sidebar */
+
+.main-content .content-wrapper .sidebar{
+    height: 500px;
+    width: 25%;
+    padding: 10px;
+    float: right;
+}
+
+.main-content .content-wrapper .sidebar h4{
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-content .content-wrapper .links{
+    position: relative;
+    margin-top: 15px;
+    height: 60px;
+    width: 100%;
+}
+
+.main-content .content-wrapper .links .links-wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+
+.main-content .content-wrapper .links .links-wrapper a{
+    padding: 15px 15px;
+    margin-right: 20px;
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content .content-wrapper .links .links-wrapper .active{
+    background-color: brown;
+}
+
+.main-content .content-wrapper .single-post{
+    position: relative;
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.main-content .content-wrapper .single-post .image{
+    position: relative;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.main-content .content-wrapper .single-post .image img{
+    position: relative;
+    height: 100%;
+}
+
+.main-content .content-wrapper .single-post .details{
+    padding-top: 10px;
+}
+
+.main-content .content-wrapper .single-post .details h5{
+    font-size: 15px;
+    color: brown;
+}
+
+.main-content .content-wrapper .single-post .details p{
+    font-size: 10px;
+}
+
+
+    /* Main Content */
+
+
+.main-content .content-wrapper .post-wrapper .posts{
+    position: relative;
+    height: auto;
+    width: 75%;
+    float: left;
+    padding: 10px;
+    border-right: 1px solid grey;
+
+}
+
+.main-content .content-wrapper .posts .post-content{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    box-shadow: 5px 4px 10px rgb(220, 219, 219);
+}
+
+.main-content .content-wrapper .posts .post-content .deleteandedit{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    margin: 10px;
+}
+
+.main-content .content-wrapper .posts .post-content .deleteandedit .delete a{
+    font-size: 20px;
+    text-decoration: none;
+    color: red;
+}
+
+.main-content .content-wrapper .posts .post-content .deleteandedit .delete a button{
+    border: none;
+    background-color: #fff;
+    color: red;
+    cursor: pointer;
+    outline: none;
+}
+
+.main-content .content-wrapper .posts .post-content .deleteandedit .edit a{
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+}
+
+.main-content .content-wrapper .posts .post-content .image{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    float: left;
+    margin-right: 20px;
+}
+
+.main-content .content-wrapper .posts .post-content .image img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.main-content .content-wrapper .posts .post-content .details{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.main-content .content-wrapper .posts .post-content .details p{
+    font-size: 13px;
+    color: grey;
+}
+
+.main-content .content-wrapper .posts .post-content .details h3{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.main-content .content-wrapper .posts .post-content .details .c-details{
+    font-size: 15px;
+}
+
+.main-content .content-wrapper .posts .post-content .details a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: brown;
+    color: #fff;
+    margin-top: 10px;
+
+}
+
+.pagination{
+    width: 66%;
+}
+
+.paginate{
+    margin: 0px auto;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px){
+
+
+    .Container .wrapper .nav-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container .wrapper .nav-container .icons{
+        display: flex;
+        justify-content: end;
+        padding-top: 5px;
+    }
+
+    .Container .categories .categories-wrapper p{
+        padding: 15px 5px;
+        font-size: 15px;
+    }
+
+    .main-content .content-wrapper .post-wrapper .posts{
+        height: auto;
+        width: 100%;
+        float: none;
+        padding: 0px;
+
+    }
+
+    .main-content .content-wrapper .sidebar{
+        height: 500px;
+        width: 100%;
+        padding: 20px;
+        float: none;
+    }
+
+    .main-content .content-wrapper .posts .post-content{
+        position: relative;
+        height: 250px;
+        width: 100%;
+        margin-top: 25px;
+        padding: 10px;
+    }
+    .main-content .content-wrapper .posts .post-content .deleteandedit{
+        margin: 10px;
+        justify-content: right;
+        width: 40%;
+        padding-top: 5px;
+    }
+
+    .main-content .content-wrapper .posts .post-content .deleteandedit .delete{
+        padding-right: 20px;
+    }
+
+    .main-content .content-wrapper .posts .post-content .image{
+        height: 100%;
+        width: 40%;
+    }
+
+    .main-content .content-wrapper .posts .post-content .image img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-content .content-wrapper .posts .post-content .details{
+        position: relative;
+        height: 50%;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    .main-content .content-wrapper .posts .post-content{
+        height: 400px;
+    }
+
+    .main-content .content-wrapper .posts .post-content .image{
+        position: relative;
+        height: 50%;
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+    }
+    .main-content .content-wrapper .posts .post-content .image img{
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
