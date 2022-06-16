@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="posts col-lg-8 col-md-12 col-sm-12">
-                    <h1>Page to be created soon</h1>
+                    <h1>Page to be created soon updated</h1>
                 </div>
             </div>
         </div>
